@@ -6,7 +6,11 @@
 
 На тестирование затрачено: 1 час
 
-В качестве тестовых данных использовались данные с сайта https://cartoved.ru/common/generator-kreditnyh-kart.html :
+### В результате тестирования выявлены следующие дефекты:
+
+[Валидный номер карты не воспринимается](https://github.com/Laptenko/Java1/issues/1)
+
+В качестве тестовых данных использовались данные с сайтов https://cartoved.ru/common/generator-kreditnyh-kart.html и https://www.freeformatter.com/credit-card-number-generator-validator.html#validate:
 
 * 5351719427810741 - ОК
 
@@ -18,10 +22,11 @@
 
 * 5404аьпнвпсыоыо - FAIL
 
+* 4426916977361695922 - OK
+
 
 ### Тестирование производилось в следующем окружении:
 
 macOS BigSur
 
 Java 11
-
